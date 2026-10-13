@@ -29,10 +29,12 @@ mvn clean javafx:run
 
 También se puede ejecutar el objetivo `javafx:run` desde el panel Maven de IntelliJ.
 
-## Pruebas realizadas manualmente
-- Inicio de clientes y productos.
-- Finalización de ambos procesos al 100 %.
-- La detención individual y el reinicio deben comprobarse en la máquina donde se ejecute el proyecto.
+## Pruebas funcionales realizadas
+- La ventana JavaFX abre correctamente.
+- Los procesos de clientes y productos llegan al 100 %.
+- La interfaz muestra porcentajes y estados de cada proceso.
+- Se comprobó el uso de los controles de inicio, detención y reinicio.
+- La prueba de concurrencia consiste en iniciar ambos procesos y observar sus barras de progreso por separado.
 
 ## Estructura
 - `MainApp.java`: punto de entrada JavaFX y carga del FXML.
